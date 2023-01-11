@@ -59,7 +59,7 @@ function init() {
     return inquirer.prompt(questions)
     .then((data) => {
         const mark = MarkDown.generateMarkdown(data)
-        fs.writeFile('./GeneratedReadMe/README.md', mark, function(err) {
+        fs.writeFile('README.md', mark, function(err) {
             if(err){
                 console.log('Could not save file!', err)
             } else {

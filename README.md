@@ -17,7 +17,7 @@
 Thanks for checking out this project! This project is a simple ReadMe generator made with node.js. This ReadMe was made with this generator. 
 
 ## Usage
-To get started, please download this repository and type "node index.js" into your terminal. The new ReadMe will be generated under the "GeneratedReadMe" Folder!
+To get started, please download this repository and type "node index.js" into your terminal. 
 
 ## Contribution
 N/A
