@@ -1,9 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const MarkDown = require('./utils/generateMarkdown.js')
-// TODO: Include packages needed for this application
 
-// TODO: Create an array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -46,16 +44,17 @@ const questions = [
         message: 'For questions(GitHub)?',
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
         message: 'Project License?',
+        choices: [
+            { name: 'MIT', value: 'mit' },
+            { name: 'GNUGPLv3', value: 'GNUGPLv3' },
+            { name: 'ISC', value: 'ISC' },
+          ],
     },
 ];
 
-// TODO: Create a function to write README file
-//function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
 function init() {
     return inquirer.prompt(questions)
     .then((data) => {
@@ -67,8 +66,6 @@ function init() {
                 console.log('Success: new README file generated inside current folder')
             }
         })
-        // console.log(data)
-        // return data
     }) 
     .catch((error) => {
         console.log(error)
