@@ -43,6 +43,10 @@ static generateMarkdown(data) {
   ## Test Instructions
   ${data.testinstructions}
 
+  ## Questions
+  ${data.email}
+  ${data.github}
+
   ## License 
   ${data.license}
 `;

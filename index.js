@@ -12,38 +12,48 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'Description',
+        name: 'description',
         message: 'Project Description?',
     },
     {
         type: 'input',
-        name: 'Contribution',
+        name: 'usage',
+        message: 'Project Usage?',
+    },
+    {
+        type: 'input',
+        name: 'contribution',
         message: 'Project Contribution?',
     },
     {
         type: 'input',
-        name: 'Installation',
+        name: 'installation',
         message: 'Project Installation?',
     },
     {
         type: 'input',
-        name: 'TestInstructions',
+        name: 'testinstructions',
         message: 'Project Test Instructions?',
     },
     {
         type: 'input',
-        name: 'Questions',
-        message: 'Questions?',
+        name: 'email',
+        message: 'For questions(Email)?',
     },
     {
         type: 'input',
-        name: 'License',
+        name: 'github',
+        message: 'For questions(GitHub)?',
+    },
+    {
+        type: 'input',
+        name: 'license',
         message: 'Project License?',
     },
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+//function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {
