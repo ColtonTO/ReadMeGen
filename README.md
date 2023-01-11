@@ -1,5 +1,5 @@
 
-# test
+# ReadMe Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -14,23 +14,23 @@
   - [License](#License)
 
 ## Description
-test
+Thanks for checking out this project! This project is a simple ReadMe generator made with node.js. This ReadMe was made with this generator. 
 
 ## Usage
-test
+To get started, please download this repository and type "node index.js" into your terminal. The new ReadMe will be generated under the "GeneratedReadMe" Folder!
 
 ## Contribution
-test
+N/A
 
 ## Installation 
-test
+Download this repository to access this application. 
 
 ## Test Instructions
-test
+Test Instructions
 
 ## Questions
-test
-test
+colton1105@gmail.com
+https://github.com/ColtonTO
 
 ## License 
 Licensed under the [MIT](https://opensource.org/licenses/MIT) license
